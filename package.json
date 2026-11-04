@@ -1,0 +1,12 @@
+{
+  "name": "apijos-resort",
+  "version": "1.0.0",
+  "private": true,
+  "description": "APIJOS RESORT public website and management portal",
+  "engines": { "node": ">=22.13 <23" },
+  "scripts": {
+    "start": "node --disable-warning=ExperimentalWarning server/index.js",
+    "test": "node --disable-warning=ExperimentalWarning --test test/app.test.js",
+    "demo": "node --disable-warning=ExperimentalWarning scripts/seed-demo.js"
+  }
+}
